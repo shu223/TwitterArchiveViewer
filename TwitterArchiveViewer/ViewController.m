@@ -20,6 +20,7 @@
 {
     [super viewDidLoad];
     
+    self.webView.scrollView.bounces = NO;
     self.webView.scalesPageToFit = YES;
     
     [self startLoad];
