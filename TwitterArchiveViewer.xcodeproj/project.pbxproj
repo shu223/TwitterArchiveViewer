@@ -17,9 +17,9 @@
 		8A85CA9A16FC9109000F74C4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A85CA9916FC9109000F74C4 /* Default@2x.png */; };
 		8A85CA9C16FC9109000F74C4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A85CA9B16FC9109000F74C4 /* Default-568h@2x.png */; };
 		8A85CA9F16FC9109000F74C4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A85CA9E16FC9109000F74C4 /* ViewController.m */; };
-		8A85CAA216FC9109000F74C4 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A85CAA016FC9109000F74C4 /* ViewController_iPhone.xib */; };
-		8A85CAA516FC9109000F74C4 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A85CAA316FC9109000F74C4 /* ViewController_iPad.xib */; };
+		8A85CAA216FC9109000F74C4 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A85CAA016FC9109000F74C4 /* ViewController.xib */; };
 		8A85CAAF16FC9252000F74C4 /* tweets in Resources */ = {isa = PBXBuildFile; fileRef = 8A85CAAE16FC9252000F74C4 /* tweets */; };
+		8A8873CF19FF027300947893 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A8873CE19FF027300947893 /* Launch Screen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,9 +38,9 @@
 		8A85CA9B16FC9109000F74C4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		8A85CA9D16FC9109000F74C4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8A85CA9E16FC9109000F74C4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		8A85CAA116FC9109000F74C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
-		8A85CAA416FC9109000F74C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		8A85CAA116FC9109000F74C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		8A85CAAE16FC9252000F74C4 /* tweets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tweets; sourceTree = "<group>"; };
+		8A8873CE19FF027300947893 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +62,7 @@
 			children = (
 				8A85CAAD16FC9169000F74C4 /* Resources */,
 				8A85CA8B16FC9109000F74C4 /* TwitterArchiveViewer */,
+				8A85CA8C16FC9109000F74C4 /* Supporting Files */,
 				8A85CA8416FC9109000F74C4 /* Frameworks */,
 				8A85CA8316FC9109000F74C4 /* Products */,
 			);
@@ -92,9 +93,8 @@
 				8A85CA9516FC9109000F74C4 /* AppDelegate.m */,
 				8A85CA9D16FC9109000F74C4 /* ViewController.h */,
 				8A85CA9E16FC9109000F74C4 /* ViewController.m */,
-				8A85CAA016FC9109000F74C4 /* ViewController_iPhone.xib */,
-				8A85CAA316FC9109000F74C4 /* ViewController_iPad.xib */,
-				8A85CA8C16FC9109000F74C4 /* Supporting Files */,
+				8A85CAA016FC9109000F74C4 /* ViewController.xib */,
+				8A8873CE19FF027300947893 /* Launch Screen.xib */,
 			);
 			path = TwitterArchiveViewer;
 			sourceTree = "<group>";
@@ -111,6 +111,7 @@
 				8A85CA9B16FC9109000F74C4 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			path = TwitterArchiveViewer;
 			sourceTree = "<group>";
 		};
 		8A85CAAD16FC9169000F74C4 /* Resources */ = {
@@ -176,8 +177,8 @@
 				8A85CA9816FC9109000F74C4 /* Default.png in Resources */,
 				8A85CA9A16FC9109000F74C4 /* Default@2x.png in Resources */,
 				8A85CA9C16FC9109000F74C4 /* Default-568h@2x.png in Resources */,
-				8A85CAA216FC9109000F74C4 /* ViewController_iPhone.xib in Resources */,
-				8A85CAA516FC9109000F74C4 /* ViewController_iPad.xib in Resources */,
+				8A85CAA216FC9109000F74C4 /* ViewController.xib in Resources */,
+				8A8873CF19FF027300947893 /* Launch Screen.xib in Resources */,
 				8A85CAAF16FC9252000F74C4 /* tweets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,20 +207,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		8A85CAA016FC9109000F74C4 /* ViewController_iPhone.xib */ = {
+		8A85CAA016FC9109000F74C4 /* ViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				8A85CAA116FC9109000F74C4 /* en */,
 			);
-			name = ViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		8A85CAA316FC9109000F74C4 /* ViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8A85CAA416FC9109000F74C4 /* en */,
-			);
-			name = ViewController_iPad.xib;
+			name = ViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -250,7 +243,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -275,7 +268,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -289,7 +282,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TwitterArchiveViewer/TwitterArchiveViewer-Prefix.pch";
 				INFOPLIST_FILE = "TwitterArchiveViewer/TwitterArchiveViewer-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -301,7 +294,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TwitterArchiveViewer/TwitterArchiveViewer-Prefix.pch";
 				INFOPLIST_FILE = "TwitterArchiveViewer/TwitterArchiveViewer-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
